@@ -1,0 +1,59 @@
+global_vars:
+  - name: gb_date
+    type: date
+    params:
+      # e.g. "30/06/2023"
+      format: "%d/%m/%Y"
+  - name: time_with_ampm
+    type: date
+    params:
+      # e.g. "22:43"
+      format: "%H:%M"
+  - name: day_and_date
+    type: date
+    params:
+      # e.g. "Fri 30/06/2023"
+      format: "%a {{bg_date}}"
+  - name: gb_date_and_time
+    type: date
+    params:
+      # e.g. "Fri 06/30/2023 - 10:56 AM"
+      format: "{gb_day_and_date}} - {{time_with_ampm}}"
+
+matches:
+  # e.g. "10:56 AM -"
+  - trigger: ";time"
+    replace: "{{time_with_ampm}} -"
+    word: true
+  # e.g. "06/30/2023"
+  - trigger: ";date"
+    replace: "{{gb_date}}"
+    word: true
+  # e.g. "Fri 06/30/2023"
+  - trigger: ";ddate"
+    replace: "{{gb_day_and_date}}"
+    word: true
+    # e.g. "Fri 06/30/2023 - 10:56 AM -"
+  - trigger: ";dtime"
+    replace: "{{gb_date_and_time}} -"
+    word: true
+    # Tomorrow's date, e.g. "Fri 08/12/2023"
+  - trigger: ";tdate"
+    replace: "{{tomorrow}}"
+    word: true
+    vars:
+      - name: tomorrow
+        type: date
+        params:
+          format: "%d/%m/%Y"
+          offset: 86400
+    # Yesterday's date, e.g. "Thu 06/29/2023"
+  - trigger: ";ydate"
+    replace: "{{yesterday}}"
+    word: true
+    vars:
+      - name: yesterday
+        type: date
+        params:
+          format: "%d/%m/%Y"
+          offset: -86400

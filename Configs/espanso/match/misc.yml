@@ -1,0 +1,43 @@
+matches:
+  - trigger: ";ip"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "ip a | grep 'inet 192' | awk '{ print $2 }' | cut -d '/' -f 1"
+  - trigger: ";song"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: script
+        params:
+          args:
+            - python
+            - "%CONFIG%/scripts/now-playing.py"
+  - trigger: ";email"
+    replace: "lewisblackburn10@gmail.com"
+  - trigger: ";address"
+    replace: "8 St Anne's St, Ryhill"
+  - trigger: ";;"
+    replace: "{{time}}"
+    vars:
+      - name: time
+        type: date
+        params:
+          format: "## %H:%M:%S\n"
+  - trigger: ";all"
+    replace: "https://www.twitch.tv/adamlearnslive"
+  # email signatures 
+  - trigger: ";sig"
+    replace: "Best,\nLewis"
+  - trigger: ";sig"
+    replace: "All the best,\nLewis"
+  - trigger: ";sig"
+    replace: "Kind regards,\nLewis"
+  - trigger: ";sig"
+    replace: "Best wishes,\nLewis"
+  - trigger: ";sig"
+    replace: "Regards,\nLewis"
+  - trigger: "your shit bike"
+    replace: "川崎"
