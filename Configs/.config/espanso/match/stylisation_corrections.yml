@@ -1,4 +1,7 @@
 matches:
+  - trigger: "github"
+    replace: "GitHub"
+    word: true
   - trigger: "macbook"
     replace: "MacBook"
     word: true

@@ -1,4 +1,8 @@
 matches:
+  - trigger: 'repo'
+    replace: 'repository'
+    word: true
+    propagate_case: true
   - trigger: ";dd"
     replace: "design document"
     word: true
