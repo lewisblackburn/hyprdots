@@ -1,9 +1,13 @@
 matches:
-  - trigger: ";resume"
+  - trigger: 'voila'
+    replace: 'voilà'
+    word: true
+    propagate_case: true
+  - trigger: "resume"
     replace: "résumé"
     word: true
     propagate_case: true
-  - trigger: ";resumes"
+  - trigger: "resumes"
     replace: "résumés"
     word: true
     propagate_case: true
