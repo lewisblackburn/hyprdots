@@ -222,7 +222,7 @@ To create your own custom theme, please refer [theming wiki](https://github.com/
 
 <table><tr><td>
 <code>l</code><br><code>o</code><br><code>g</code><br><code>i</code><br><code>n</code></td><td><table>
-    <tr><td>sddm-git</td><td>display manager for login</td></tr>
+    <tr><td>sddm</td><td>display manager for login</td></tr>
     <tr><td>qt5-wayland</td><td>for QT wayland XDP</td></tr>
     <tr><td>qt6-wayland</td><td>for QT wayland XDP</td></tr>
     <tr><td>qt5-quickcontrols</td><td>for sddm theme</td></tr>
