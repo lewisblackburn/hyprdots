@@ -4,7 +4,6 @@
 &ensp;[<kbd> <br> Install <br> </kbd>](#Installation)&ensp;
 &ensp;[<kbd> <br> Themes <br> </kbd>](#Themes)&ensp;
 &ensp;[<kbd> <br> Styles <br> </kbd>](#Styles)&ensp;
-&ensp;[<kbd> <br> Packages <br> </kbd>](#Packages)&ensp;
 &ensp;[<kbd> <br> Keybindings <br> </kbd>](#Keybindings)&ensp;
 &ensp;[<kbd> <br> Youtube <br> </kbd>](#Youtube)&ensp;
 &ensp;[<kbd> <br> Wiki <br> </kbd>](https://github.com/prasanthrangan/hyprdots/wiki)&ensp;
@@ -83,7 +82,7 @@ To create your own custom theme, please refer [theming wiki](https://github.com/
 
 > [!TIP]
 > You can install/browse/create/maintain/share additional themes (ex. [Synth-Wave](https://github.com/prasanthrangan/hyprdots-mod)) using themepatcher.
-> For more details please refer [themepatcher wiki](https://github.com/prasanthrangan/hyprdots/wiki/Themepatcher).
+> For more details please refer [themepatcher wiki](https://github.com/prasanthrangan/hyprdots/wiki/Theming#theme-patcher).
 
 <br><div align="center"><table><tr><td><img width="60" src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_logo.png"></td><td>
 
@@ -193,6 +192,7 @@ To create your own custom theme, please refer [theming wiki](https://github.com/
 [<kbd> <br> 🡅 <br> </kbd>](#-design-by-t2)
 </div>
 
+<<<<<<< HEAD
 ## Packages
 
 <table><tr><td>
@@ -295,6 +295,8 @@ To create your own custom theme, please refer [theming wiki](https://github.com/
 [<kbd> <br> 🡅 <br> </kbd>](#-design-by-t2)
 </div>
 
+=======
+>>>>>>> upstream/main
 ## Keybindings
 
 | Keys | Action |
