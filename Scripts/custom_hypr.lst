@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 pipewire
 pipewire-alsa
 pipewire-audio
@@ -145,5 +144,3 @@ pokemon-colorscripts-git|zsh                           # display pokemon sprites
 
 # --------------------------------------------------- // Hyprdots
 hyprdots-ctl                                           # cli tool to manage hyprdots
-
->>>>>>> upstream/main

@@ -192,7 +192,6 @@ To create your own custom theme, please refer [theming wiki](https://github.com/
 [<kbd> <br> 🡅 <br> </kbd>](#-design-by-t2)
 </div>
 
-<<<<<<< HEAD
 ## Packages
 
 <table><tr><td>
@@ -296,7 +295,6 @@ To create your own custom theme, please refer [theming wiki](https://github.com/
 </div>
 
 =======
->>>>>>> upstream/main
 ## Keybindings
 
 | Keys | Action |
