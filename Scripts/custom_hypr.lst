@@ -1,66 +1,3 @@
-pipewire
-pipewire-alsa
-pipewire-audio
-pipewire-jack
-pipewire-pulse
-gst-plugin-pipewire
-wireplumber
-networkmanager
-network-manager-applet
-bluez
-bluez-utils
-blueman
-sddm
-qt5-wayland
-qt6-wayland
-qt5-quickcontrols
-qt5-quickcontrols2
-qt5-graphicaleffects
-hyprland
-dunst
-rofi-lbonn-wayland-git
-waybar
-swww
-swaylock-effects-git
-wlogout
-grimblast-git
-hyprpicker-git
-slurp
-swappy
-cliphist
-polkit-kde-agent
-xdg-desktop-portal-hyprland
-pacman-contrib
-python-pyamdgpuinfo
-parallel
-jq
-imagemagick
-qt5-imageformats
-ffmpegthumbs
-kde-cli-tools
-brightnessctl
-pavucontrol
-pamixer
-nwg-look
-kvantum
-qt5ct
-qt6ct
-firefox
-kitty
-neofetch
-dolphin
-visual-studio-code-bin
-vim
-ark
-eza|zsh
-oh-my-zsh-git|zsh
-zsh-theme-powerlevel10k|zsh oh-my-zsh-git
-pokemon-colorscripts-git|zsh
-lsd|fish
-starship|fish
-hyprdots-ctl
-btop
-=======
 # --------------------------------------------------- // System
 pipewire                                               # audio/video server
 pipewire-alsa                                          # pipewire alsa client
@@ -112,6 +49,7 @@ imagemagick                                            # for image processing
 qt5-imageformats                                       # for dolphin image thumbnails
 ffmpegthumbs                                           # for dolphin video thumbnails
 kde-cli-tools                                          # for dolphin file type defaults
+kservice5                                              # for "open with" menu in dolphin
 
 
 # --------------------------------------------------- // Theming
@@ -143,4 +81,5 @@ pokemon-colorscripts-git|zsh                           # display pokemon sprites
 
 
 # --------------------------------------------------- // Hyprdots
-hyprdots-ctl                                           # cli tool to manage hyprdots
+hyprdots-ctl-git                                       # cli tool to manage hyprdots
+

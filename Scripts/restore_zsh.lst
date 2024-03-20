@@ -6,4 +6,3 @@ https://github.com/chrissicool/zsh-256color             # enhance terminal envir
 #https://github.com/zsh-users/zsh-completions           # press tab to complete command
 https://github.com/zsh-users/zsh-autosuggestions        # suggests commands as you type based on history
 https://github.com/zsh-users/zsh-syntax-highlighting    # highlights commands as you type
-z 							# defines the z command that tracks your most visited directories and allows you to access them with very few keystrokes.
